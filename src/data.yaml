@@ -17,6 +17,12 @@ books:
     date: 2024.12.07
     rate: 4
 
+  - title: JVM 밑바닥까지 파헤치기
+    author: 저우즈밍
+    cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788966264414.jpg
+    date: 2024.12.06
+    rate: 3
+
   - title: 프랑켄슈타인
     author: 메리 셸리
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791155815588.jpg
