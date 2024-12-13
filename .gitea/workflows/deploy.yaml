@@ -1,0 +1,75 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  GTCR_REPOSITORY: book
+  IMAGE_TAG: dev${{ github.run_number }}
+
+jobs:
+  build:
+    name: Build docker Image
+    runs-on: ubuntu-latest
+    container:
+      image: catthehacker/ubuntu:act-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Log in to Gitea Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: gitea.jaehong21.com
+          username: ${{ github.actor }}
+          password: ${{ secrets.GIT_ADMIN_TOKEN }}
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build, tag, and push image to gitea.jaehong21.com
+        uses: docker/build-push-action@v4
+        with:
+          context: .
+          push: true
+          tags: gitea.jaehong21.com/${{ github.actor }}/${{ env.GTCR_REPOSITORY }}:${{ env.IMAGE_TAG }}
+          platforms: linux/arm64
+
+  deploy:
+    name: Update GitOps Repository
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          github-server-url: https://github.com
+          repository: jaehong21/jaehong21-gitops
+          ref: main
+          token: ${{ secrets.GITOPS_TOKEN }}
+          fetch-depth: 10
+
+      - name: Import GPG Key
+        run: |
+          echo "${{ secrets.GPG_PRIVATE_KEY }}" | gpg --batch --import          
+
+      - name: Configure Git for GPG Signing
+        run: |
+          git config --global user.email "dev@jaehong21.com"
+          git config --global user.name "jaehong21"
+          git config --global commit.gpgSign true
+          git config --global user.signingKey "${{ secrets.GPG_KEY_ID }}"          
+
+      - name: Update Kubernetes Manifest
+        env: 
+          MANIFEST_PATH: workloads/book/deployment.yaml
+        run: |
+          sed -i "s|image:.*|image: gitea.jaehong21.com/jaehong21/$GTCR_REPOSITORY:$IMAGE_TAG|g" $MANIFEST_PATH
+          sed -i "s|version:.*|version: $IMAGE_TAG|g" $MANIFEST_PATH          
+
+      - name: Commit and Push
+        run: |
+          git commit -S -am "feat: update image gitea.jaehong21.com/jaehong21/$GTCR_REPOSITORY:$IMAGE_TAG"
+          git push -u origin main          
