@@ -1,4 +1,10 @@
 books:
+  - title: 편의점 인간
+    author: 무라타 사야카
+    cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788952235268.jpg
+    date: 2024.12.14
+    rate: 5
+
   - title: 여기는 커스터드, 특별한 도시락을 팝니다
     author: 가토 겐
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791192403076.jpg
