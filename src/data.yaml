@@ -3,400 +3,400 @@ books:
     author: 무라타 사야카
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788952235268.jpg
     date: 2024.12.14
-    rate: 5
+    rating: 5
 
   - title: 여기는 커스터드, 특별한 도시락을 팝니다
     author: 가토 겐
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791192403076.jpg
     date: 2024.12.11
-    rate: 4
+    rating: 4
 
   - title: 보건교사 안은영
     author: 정세랑
     cover_url: https://image.yes24.com/goods/92562566/XL
     date: 2024.12.09
-    rate: 3
+    rating: 3
 
   - title: 녹나무 파수꾼
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791165075064.jpg
     date: 2024.12.07
-    rate: 4
+    rating: 4
 
   - title: JVM 밑바닥까지 파헤치기
     author: 저우즈밍
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788966264414.jpg
     date: 2024.12.06
-    rate: 3
+    rating: 3
 
   - title: 프랑켄슈타인
     author: 메리 셸리
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791155815588.jpg
     date: 2024.11.26
-    rate: 4
+    rating: 4
 
   - title: 오늘 밤, 세계에서 이 사랑이 사라진다 해도
     author: 이치조 미사키
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791191043297.jpg
     date: 2024.01.09
-    rate: 3
+    rating: 3
 
   - title: 마당이 있는 집
     author: 김진영
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788954651059.jpg
     date: 2023.08.12
-    rate: 4
+    rating: 4
 
   - title: 기분이 태도가 되지 말자
     author: 김수현
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791197647666.jpg
     date: 2023.08.05
-    rate: 3
+    rating: 3
 
   - title: 머신러닝 시스템 설계
     author: 칩 후옌
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791169210850.jpg
     date: 2023.07.01
-    rate: 3
+    rating: 3
 
   - title: 러스트 프로그래밍 가이드
     author: ["스티브 클라브닉", "캐롤 니콜스"]
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791192987422.jpg
     date: 2022.08.26
-    rate: 4
+    rating: 4
 
   - title: 쿠버네티스를 활용한 클라우드 네이티브 데브옵스
     author: ["존 어런들", "저스틴 도밍거스"]
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791162242445.jpg
     date: 2022.04.28
-    rate: 3
+    rating: 3
 
   - title: 블록체인 인 액션
     author: 비나 라마머시
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791191600124.jpg
     date: 2022.04.22
-    rate: 3
+    rating: 3
 
   - title: 모던 자바스크립트 Deep Dive
     author: 이웅모
     cover_url: https://image.yes24.com/goods/92742567/XL
     date: 2022.03.16
-    rate: 4
+    rating: 4
 
   - title: 넥스트 머니
     author: ["고란", "이용재"]
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791130617381.jpg
     date: 2022.01.17
-    rate: 2
+    rating: 2
 
   - title: 외계어 없이 이해하는 암호화폐
     author: 송범근
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791187400332.jpg
     date: 2022.01.14
-    rate: 4
+    rating: 4
 
   - title: Do it! Vue.js 입문
     author: 장기효
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/4801188612780.jpg
     date: 2022.01.08
-    rate: 3
+    rating: 3
 
   - title: 달러구트 꿈 백화점
     author: 이미예
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/480D200426480.jpg
     date: 2021.09.24
-    rate: 5
+    rating: 5
 
   - title: 스무디 한 잔 마시며 끝내는 React Native
     author: 김정헌
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791190014625.jpg
     date: 2021.07.01
-    rate: 3
+    rating: 3
 
   - title: 리액트를 다루는 기술
     author: 김민준
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791160508796.jpg
     date: 2021.06.28
-    rate: 3
+    rating: 3
 
   - title: 파이썬 딥러닝 머신러닝 입문
     author: 오승환
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788956749006.jpg
     date: 2021.05.22
-    rate: 4
+    rating: 4
 
   - title: 펭귄브로의 3분 딥러닝, 파이토치맛
     author: ["김건우", "염상준"]
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791162242278.jpg
     date: 2021.03.22
-    rate: 3
+    rating: 3
 
   - title: 주식시장의 승부사들
     author: 한봉호 외 6인
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791188279890.jpg
     date: 2021.02.04
-    rate: 4
+    rating: 4
 
   - title: 미국주식으로 부자되기
     author: 김훈
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788969524461.jpg
     date: 2021.01.31
-    rate: 2
+    rating: 2
 
   - title: 경제기사를 읽으면 주식투자가 쉬워집니다
     author: 박지수
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791160023091.jpg
     date: 2021.01.29
-    rate: 3
+    rating: 3
 
   - title: 터틀 트레이딩
     author: 차영주
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791190977012.jpg
     date: 2021.01.29
-    rate: 4
+    rating: 4
 
   - title: 주린이도 술술 읽는 친절한 주식책
     author: ["최정희", "이슬기"]
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791160022988.jpg
     date: 2021.01.28
-    rate: 3
+    rating: 3
 
   - title: 주식 공부 5일 완성
     author: 박민수
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791162541869.jpg
     date: 2021.01.28
-    rate: 4
+    rating: 4
 
   - title: 차트분석 무작정 따라하기
     author: 윤재수
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791160502404.jpg
     date: 2021.01.27
-    rate: 4
+    rating: 4
 
   - title: 예외의 탄생
     author: 우지혜
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/480D190907830.jpg
     date: 2021.01.02
-    rate: 4
+    rating: 4
 
   - title: 동물 기계
     author: 루스 해리슨
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791185415383.jpg
     date: 2020.11.25
-    rate: 4
+    rating: 4
 
   - title: "지식 편의점 : 생각하는 인간 편"
     author: 이시한
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788965963851.jpg
     date: 2020.11.23
-    rate: 4
+    rating: 4
 
   - title: 신참자
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788990982469.jpg
     date: 2020.10.07
-    rate: 4
+    rating: 4
 
   - title: 팬데믹의 현재적 기원
     author: 롭 월러스
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788994606606.jpg
     date: 2020.08.17
-    rate: 4
+    rating: 4
 
   - title: 거짓말, 딱 한 개만 더
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788972750062.jpg
     date: 2020.08.12
-    rate: 3
+    rating: 3
 
   - title: The Scarlet Letter
     author: Nathaniel Hawthorne
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9780143107668.jpg
     date: 2020.08.04
-    rate: 4
+    rating: 4
 
   - title: 작가들의 비밀스러운 삶
     author: 기욤 뮈소
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788984373853.jpg
     date: 2020.03.01
-    rate: 4
+    rating: 4
 
   - title: 초콜릿 하트 드래곤
     author: 스테파니 버지스
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791135443947.jpg
     date: 2020.01.30
-    rate: 4
+    rating: 4
 
   - title: 우리가 빛의 속도로 갈 수 없다면
     author: 김초엽
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791190090018.jpg
     date: 2020.01.08
-    rate: 5
+    rating: 5
 
   - title: 내가 그를 죽였다
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788972750055.jpg
     date: 2020.01.01
-    rate: 3
+    rating: 3
 
   - title: 둘 중 누군가 그녀를 죽였다
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788972750048.jpg
     date: 2019.12.16
-    rate: 4
+    rating: 4
 
   - title: 200세 시대가 온다
     author: 토마스 슐츠
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788901237206.jpg
     date: 2019.12.01
-    rate: 4
+    rating: 4
 
   - title: 숨
     author: 테드 창
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791164050277.jpg
     date: 2019.11.19
-    rate: 4
+    rating: 4
 
   - title: 대도시의 사랑법
     author: 박상영
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/4808936437978.jpg
     date: 2019.11.12
-    rate: 4
+    rating: 4
 
   - title: 악의
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788972750031.jpg
     date: 2019.10.25
-    rate: 3
+    rating: 3
 
   - title: 잠자는 숲
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788972750024.jpg
     date: 2019.09.24
-    rate: 5
+    rating: 5
 
   - title: "졸업 : 설월화 살인 게임"
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788972750086.jpg
     date: 2019.09.21
-    rate: 4
+    rating: 4
 
   - title: 봉제인형 살인사건
     author: 다니엘 콜
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788998274931.jpg
     date: 2019.09.19
-    rate: 3
+    rating: 3
 
   - title: 연애의 행방
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791163890119.jpg
     date: 2019.09.13
-    rate: 3
+    rating: 3
 
   - title: My 'Before Sunrise'
     author: 킴쓰컴퍼니
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/480D190563680.jpg
     date: 2019.09.08
-    rate: 4
+    rating: 4
 
   - title: 그대 눈동자에 건배
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788972758426.jpg
     date: 2019.09.07
-    rate: 4
+    rating: 4
 
   - title: 천공의 벌
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788990982667.jpg
     date: 2019.09.05
-    rate: 4
+    rating: 4
 
   - title: 레미제라블 1~5
     author: 빅토르 위고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788937486104.jpg
     date: 2019.09.01
-    rate: 4
+    rating: 4
 
   - title: 죽음 2
     author: 베르나르 베르베르
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788932919683.jpg
     date: 2019.07.19
-    rate: 3
+    rating: 3
 
   - title: 죽음 1
     author: 베르나르 베르베르
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788932919676.jpg
     date: 2019.07.16
-    rate: 4
+    rating: 4
 
   - title: 평생 간직하고픈 시
     author: 윤동주
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788991945845.jpg
     date: 2019.07.15
-    rate: 3
+    rating: 3
 
   - title: 편지
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788925566009.jpg
     date: 2019.07.14
-    rate: 4
+    rating: 4
 
   - title: 2019 제 10회 젊은작가상 수상작품집
     author: ["박상영", "외 6인"]
     cover_url: https://img1.daumcdn.net/thumb/C500x500/?fname=http://t1.daumcdn.net/brunch/service/user/57Ce/image/kMQVxE8m0LETfLR98UpPq-dlHRA.jpg
     date: 2019.06.24
-    rate: 4
+    rating: 4
 
   - title: 화씨 451
     author: 레이 브래드버리
     cover_url: https://image.aladin.co.kr/product/18906/72/cover500/s792635686_1.jpg
     date: 2019.06.05
-    rate: 4
+    rating: 4
 
   - title: 결국, 아이디어는 발견이다
     author: 박영택
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788993354560.jpg
     date: 2019.05.21
-    rate: 2
+    rating: 2
 
   - title: 가면산장 살인사건
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788990982575.jpg
     date: 2019.05.20
-    rate: 3
+    rating: 3
 
   - title: 용의자 X의 헌신
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788990982704.jpg
     date: 2019.05.18
-    rate: 5
+    rating: 5
 
   - title: 창문 넘어 도망친 100세 노인
     author: 요나스 요나손
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788932916194.jpg
     date: 2019.05.16
-    rate: 3
+    rating: 3
 
   - title: 인어가 잠든 집
     author: 히가시노 게이고
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788990982773.jpg
     date: 2019.05.10
-    rate: 5
+    rating: 5
 
   - title: 나미야 잡화점의 기적
     author: 히가시노 게이고
-    cover_url: https://i.namu.wiki/i/o6h97yw731NI2WwY-SpkHa16lVDgTdspFJCNfiq492kePtv950sg_rs3DNxshigG3r1hIXv00-clgz_9rYxA-huhUI6tmcsDwmOqP6XP4BjfpI17DejeiFT6DYnlsY1mCDBcpTEXiMCYbDjtkIBdaA.webp
+    cover_url: https://i.namu.wiki/i/CLKfuKNO-G1STM9S3fzU9gyclBAl2NOlS8K9WSNGAZ_RwiQOnSt2DzGEN30XIzdA3EV6yzDKyq9WXDEL4qqSVw.webp
     date: 2019.05.09
-    rate: 5
+    rating: 5
 
   - title: 돌이킬 수 없는 약속
     author: 야쿠마루 가쿠
     cover_url: https://image.yes24.com/goods/35552641/XL
     date: 2019.05.07
-    rate: 3
+    rating: 3
 
   - title: 철학은 어떻게 삶의 무기가 되는가
     author: 야마구치 슈
     cover_url: https://image.yes24.com/goods/106443234/XL
     date: 2019.05.07
-    rate: 3
+    rating: 3
