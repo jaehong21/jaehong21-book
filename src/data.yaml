@@ -1,4 +1,10 @@
 books:
+  - title: Istio in Action
+    author: ["크리스티안 포스타", "라이너 말로쿠"]
+    cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791161758336.jpg
+    date: 2025.01.07
+    rating: 3
+
   - title: 이상한 집
     author: 우케쓰
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791197708572.jpg
