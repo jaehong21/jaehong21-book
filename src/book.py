@@ -29,7 +29,7 @@ for i in range(0, len(books), col_count):  # Process books per row
         with cols[j]:  # Assign each book to a column
             st.markdown(
                 f"""
-            <img src="{book['cover_url']}" style="height: 250px; border-radius: 0.5rem; margin-bottom: 1rem;">
+            <img src="{book['cover_url']}" style="height: 230px; border-radius: 0.5rem; margin-bottom: 1rem;">
             <div style="height: 3rem; font-weight: bold;">{book['title']}</div>
             <div style="margin-top: 0.5rem;">
                 {"<br />".join(book['author']) if isinstance(book['author'], list) else book['author']}
