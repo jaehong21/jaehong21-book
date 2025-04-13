@@ -1,10 +1,16 @@
 books:
+  - title: 재벌집 막내아들 2
+    author: 산경
+    cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791197915970.jpg
+    date: 2025.04.13
+    wip: true
+    # rating: 4
+
   - title: 재벌집 막내아들 1
     author: 산경
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791197915987.jpg
-    date: 2025.04.12
-    wip: true
-    # rating: 4
+    date: 2025.04.13
+    rating: 5
 
   - title: 크래프톤 웨이
     author: 이기문
