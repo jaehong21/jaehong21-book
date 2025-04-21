@@ -2,9 +2,20 @@ books:
   # - title: 재벌집 막내아들 5
   #   author: 산경
   #   cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791197915949.jpg
-  # - title: 재벌집 막내아들 4
-  #   author: 산경
-  #   cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791197915956.jpg
+
+  - title: 노인과 바다
+    author: 어니스트 헤밍웨이
+    cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788937462788.jpg
+    date: 2025.04.22
+    wip: true
+    # rating: 3
+
+  - title: 재벌집 막내아들 4
+    author: 산경
+    cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791197915956.jpg
+    date: 2025.04.22
+    wip: true
+    # rating: 3
 
   - title: 재벌집 막내아들 3
     author: 산경
