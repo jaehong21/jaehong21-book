@@ -1,16 +1,28 @@
 books:
+  # - title: 재벌집 막내아들 5
+  #   author: 산경
+  #   cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791197915949.jpg
+  # - title: 재벌집 막내아들 4
+  #   author: 산경
+  #   cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791197915956.jpg
+
+  - title: 재벌집 막내아들 3
+    author: 산경
+    cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791197915963.jpg
+    date: 2025.04.20
+    rating: 3
+
   - title: 그리고 아무도 없었다
     author: 애거서 크리스티
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788960177758.jpg
-    date: 2025.04.18
-    wip: true
-    # rating: 4
+    date: 2025.04.20
+    rating: 3
 
   - title: 재벌집 막내아들 2
     author: 산경
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791197915970.jpg
     date: 2025.04.18
-    rating: 4
+    rating: 3
 
   - title: 재벌집 막내아들 1
     author: 산경
