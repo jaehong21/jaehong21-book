@@ -20,9 +20,8 @@ books:
   - title: 재벌집 막내아들 4
     author: 산경
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791197915956.jpg
-    date: 2025.04.22
-    wip: true
-    # rating: 3
+    date: 2025.06.29
+    rating: 3
 
   - title: 재벌집 막내아들 3
     author: 산경
