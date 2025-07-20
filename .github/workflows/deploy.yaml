@@ -69,10 +69,8 @@ jobs:
         env:
           MANIFEST_PATH: workloads/book/values.yaml
         run: |
-          # sed -i "s|image:.*|image: ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:$IMAGE_TAG|g" $MANIFEST_PATH
-          # sed -i "s|version:.*|version: $IMAGE_TAG|g" $MANIFEST_PATH
-          yq -i '.app.version = $IMAGE_TAG' $MANIFEST_PATH
-          yq -i '.deployment.container.image.tag = $IMAGE_TAG' $MANIFEST_PATH
+          sed -i "s|version:.*|version: $IMAGE_TAG|g" $MANIFEST_PATH
+          sed -i "s|tag:.*|tag: $IMAGE_TAG|g" $MANIFEST_PATH
 
       - name: Commit and Push
         run: |-
