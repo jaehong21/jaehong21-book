@@ -67,7 +67,7 @@ jobs:
 
       - name: Update Kubernetes Manifest
         env:
-          MANIFEST_PATH: workloads/book/deployment.yaml
+          MANIFEST_PATH: workloads/book/values.yaml
         run: |
           # sed -i "s|image:.*|image: ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:$IMAGE_TAG|g" $MANIFEST_PATH
           # sed -i "s|version:.*|version: $IMAGE_TAG|g" $MANIFEST_PATH
