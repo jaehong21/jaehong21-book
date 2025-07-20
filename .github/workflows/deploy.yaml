@@ -69,10 +69,12 @@ jobs:
         env:
           MANIFEST_PATH: workloads/book/deployment.yaml
         run: |
-          sed -i "s|image:.*|image: ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:$IMAGE_TAG|g" $MANIFEST_PATH
-          sed -i "s|version:.*|version: $IMAGE_TAG|g" $MANIFEST_PATH
+          # sed -i "s|image:.*|image: ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:$IMAGE_TAG|g" $MANIFEST_PATH
+          # sed -i "s|version:.*|version: $IMAGE_TAG|g" $MANIFEST_PATH
+          yq -i '.app.version = $IMAGE_TAG' $MANIFEST_PATH
+          yq -i '.deployment.container.image.tag = $IMAGE_TAG' $MANIFEST_PATH
 
       - name: Commit and Push
         run: |-
-          git commit -S -am "feat: update image ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:$IMAGE_TAG"
+          git commit -S -am "feat(book): update image to $IMAGE_TAG"
           git push -u origin main
