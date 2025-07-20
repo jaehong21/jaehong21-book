@@ -16,9 +16,6 @@ jobs:
     name: Build docker Image
     runs-on: ubuntu-latest
     steps:
-      - name: Check yq version
-        run: yq --version
-
       - name: Checkout
         uses: actions/checkout@v4
 
