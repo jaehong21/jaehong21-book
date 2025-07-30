@@ -1,18 +1,18 @@
 books:
 
-  - title: 배틀그라운드, 새로운 전장으로
-    author: 이기문
-    cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791173321139.jpg
-    date: 2025.07.03
-    wip: true
-    # rating: 3
+  # - title: 배틀그라운드, 새로운 전장으로
+  #   author: 이기문
+  #   cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9791173321139.jpg
+  #   date: 2025.07.03
+  #   wip: true
+  #   rating: 2
 
-  - title: 노인과 바다
-    author: 어니스트 헤밍웨이
-    cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788937462788.jpg
-    date: 2025.07.01
-    wip: true
-    # rating: 3
+  # - title: 노인과 바다
+  #   author: 어니스트 헤밍웨이
+  #   cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788937462788.jpg
+  #   date: 2025.07.01
+  #   wip: true
+  #   rating: 3
 
   - title: 재벌집 막내아들 5
     author: 산경
