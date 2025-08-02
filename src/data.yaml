@@ -1,4 +1,9 @@
 books:
+  - title: 수확자
+    author: 닐 셔스터먼
+    cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788932923048.jpg
+    date: 2025.08.02
+    rating: 5
 
   # - title: 배틀그라운드, 새로운 전장으로
   #   author: 이기문
