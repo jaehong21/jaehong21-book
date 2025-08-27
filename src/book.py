@@ -1,3 +1,5 @@
+from datetime import datetime
+
 import streamlit as st
 import yaml
 
@@ -40,12 +42,32 @@ books = data["books"]
 # order by date desc
 books = sorted(books, key=lambda x: x["date"], reverse=True)
 
-st.title("📚 독서기록장")
-st.html(
-    f"""
-    총 독서 권수: <b>{len([book for book in books if not book.get("wip", False)])}</b>
+st.title("📚 Book Shelf")
+read_books = [book for book in books if not book.get("wip", False)]
+total_books_read = len(read_books)
+
+if read_books:
+    oldest_date_str = min(b["date"] for b in read_books)
+    oldest_date = datetime.strptime(oldest_date_str, "%Y.%m.%d")
+    now = datetime.now()
+    # Calculate the number of months between the two dates
+    months = (now.year - oldest_date.year) * 12 + (now.month - oldest_date.month)
+    if months == 0:
+        months = 1  # Avoid division by zero
+    books_per_month = total_books_read / months
+
+    st.html(
+        f"""
+    Total books: <b>{total_books_read}</b><br>
+    Books per month: <b>{books_per_month:.3f}</b>
     """
-)
+    )
+else:
+    st.html(
+        f"""
+    Total books: <b>{total_books_read}</b>
+    """
+    )
 
 col_count = 4
 
