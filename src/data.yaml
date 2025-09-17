@@ -1,4 +1,10 @@
 books:
+  - title: 눈먼 자들의 도시
+    author: 주제 사라마구
+    cover_url: https://image.yes24.com/goods/106700539/XL
+    date: 2025.09.17
+    rating: 3
+
   - title: 종소리
     author: 닐 셔스터먼
     cover_url: https://contents.kyobobook.co.kr/sih/fit-in/458x0/pdt/9788932923062.jpg
